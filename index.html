@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Agenda</title>
+  <link rel="stylesheet" href="./style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div class="container">
+    <h1>CADASTRAR NOVO CONTATO</h1>
+    <form id="formulario">
+      <input id="nome" required type="text" placeholder="Nome completo">
+      <input id="telefone" required type="tel" placeholder="Telefone: Digite com ddd e sem espaços">
+      <button type="submit">CADASTRAR</button>
+    </form>
+  </div>
+  <div class="container container2">
+    <table cellspacing="0">
+      <caption>CONTATOS</caption>
+      <thead>
+        <tr>
+          <th>NOME</th>
+          <th>NÚMERO</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr class="linha">
+          <td>---</td>
+          <td>---</td>
+        </tr>
+      </tbody>
+    </table>
+
+  </div>
+
+  <script src="./script.js"></script>
+</body>
+
+</html>
+
+<!--
+  
+criar uma aplicação de agenda de contatos.
+
+1)
+tabela com duas colunas:
+nome
+telefone
+
+2)
+formulário - 
+-  nome
+- telefone
+-clicar em cadastrar
+-uma linha será adicionada na tabela.
+
+
+3) Publique a aplicação na Vercel. Para isso será necessário criar um repositório no Github e alimentá-lo com o código do projeto;
+
+4) Cole na plataforma o link do projeto publicado na Vercel. -->

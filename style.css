@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  background-color: black;
+  padding-top: 100px;
+  color: white;
+
+
+}
+
+body h1 {
+  padding-top: 40px;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.container {
+  max-width: 1024px;
+  width: 100%;
+
+  border-bottom: 1px solid black;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 10px;
+}
+
+
+#formulario {
+  width: 320px;
+  display: flex;
+  flex-direction: column;
+}
+
+#formulario>input {
+  margin-top: 10px;
+  height: 30px;
+  border: none;
+  border-radius: 20px;
+  text-align: center;
+}
+
+#formulario>button {
+  height: 30px;
+  margin-top: 10px;
+  background-color: green;
+  color: white;
+  border: none;
+  border-radius: 30px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.container table {
+  border-spacing: 10px;
+}
+
+.container table caption {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.container table thead th {
+  border-bottom: 1px solid white;
+  width: 200px;
+  text-align: center;
+}
+
+.container table tbody td {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.176);
+  width: 200px;
+  text-align: center;
+  font-size: 15px;
+  color: rgba(255, 255, 255, 0.629);
+  margin-bottom: 5px;
+}
+
+.container2 {
+  border-top: solid 1px #ffffff39;
+  padding-top: 20px;
+}
